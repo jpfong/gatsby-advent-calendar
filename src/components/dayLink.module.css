@@ -1,0 +1,30 @@
+.item {
+    background-color: rgb(252, 30, 67);
+    background-image: linear-gradient(130deg, rgb(217, 82, 82) 0%, rgb(252, 30, 67) 85%, rgb(252, 119, 30) 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    border-radius: 4px;
+    border: 6px solid #171717;
+  }
+
+  .item h3 {
+    text-align: center;
+    text-shadow: none;
+    font-size: 40px;
+    }
+
+  .disable {
+    background-color: rgb(134, 123, 125);
+    background-image: linear-gradient(130deg, rgb(59, 52, 52) 0%, rgb(134, 123, 125) 85%, rgb(175, 174, 174) 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    border-radius: 4px;
+    border: 6px solid #171717;
+  }
+
+  .disable h3 {
+    text-align: center;
+    text-shadow: none;
+    font-size: 40px;
+  }
+
