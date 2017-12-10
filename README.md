@@ -2,6 +2,7 @@
 
 ## Running in development
 `npm install --global gatsby-cli`
+
 `gatsby develop`
 
 ## Build for production
