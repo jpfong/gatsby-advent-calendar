@@ -7,7 +7,7 @@ export default ({ data }) => {
     return (
         <div className={styles.container}>
             {data.allMarkdownRemark.edges.map(({ node }, index) => (
-                <DayLink id={node.id} slug={node.fields.slug} key={node.id} link={index + 1}/>
+                <DayLink id={node.id} slug={`/${index + 1}/`} key={node.id} link={index + 1}/>
             ))}
         </div>
     )
